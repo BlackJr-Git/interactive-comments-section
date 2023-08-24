@@ -8,10 +8,37 @@
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Interactive comments section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
 
+  <div class="comment-container container">
+    <div class="votes">
+      <div class="votes-bar">
+        <span><img src="images/icon-plus.svg" alt=""></span> <span class="bold violet">12</span> <span><img src="images/icon-minus.svg" alt=""></span>
+      </div>
+    </div>
+    <div class="comment-info">
+      <div class="comment-nav">
+        <div class="user-info">
+          <img class="user-icons" src="images/avatars/image-amyrobson.png" alt="">
+          <p class="username bold">@juniorasosa</p>
+          <p>1 Month ago</p>
+        </div>
+        <a class="reply bold" href=""><img src="images/icon-reply.svg" alt="">Reply</a>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolor 
+        repudiandae, iusto dolores distinctio minima veniam quo consectetur 
+        rerum numquam ea impedit tenetur totam assumenda laborum sit illum 
+        quam
+      </p>
+    </div>
+  </div>
+
+  <div class="container add-comment">
+    <img class="input-usericons" src="images/avatars/image-juliusomo.png" alt="">
+    <input class="comment-input" placeholder="Add a comment..." type="text">
+    <button class="btn-send">SEND</button>
+  </div>
   <!-- Pull dynamic content from the data.json file -->
   
   <div class="attribution">
